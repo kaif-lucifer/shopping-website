@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+/** header section **/
+.navbar {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 55px;
+    width: 60px;
+}
+
+.logo {
+    background-image: url("Logo2.jpg");
+    background-size: cover;
+    height: 55px;
+    width: 100%;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+.address {
+    color: aliceblue;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.place {
+    font-size: 1rem;
+    margin-left: 3px;
+    font-weight: bold;
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+}
+
+/** search section **/
+.search-box {
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    background-color: #febd6f;
+    border-radius: 4px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.search-box:hover {
+    border: 2px solid orange;
+}
+
+/** search section end **/
+span {
+    font-size: 0.7rem;
+    margin-left: 25px;
+}
+
+.signin-icon {
+    display: flex;
+    align-items: center;
+}
+
+.open-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-left: 3px;
+}
+
+.cart i {
+    font-size: 30px;
+}
+
+.cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel {
+    height: 40px;
+    background-color: rgb(60, 42, 42);
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.options p {
+    display: inline;
+    margin-left: 10px;
+}
+
+.options {
+    width: 70%;
+    font-weight: 0.85rem;
+}
+
+.others {
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+/** header section ends **/
+
+/** main section **/
+
+.main-section {
+    background-image: url("gifts_image.jpeg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.message {
+    background-color: white;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+    width: 85%;
+    margin-bottom: 30px;
+}
+
+.message a {
+    color: #007185;
+}
+
+/**main section end**/
+
+/** shop section **/
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(248, 231, 208);
+    flex-wrap: wrap;
+}
+
+.container {
+    border: 2px solid black;
+    height: 400px;
+    width: 23.5%;
+    height: 400px;
+    border: none;
+    background-color: white;
+    background-size: cover;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-image {
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-repeat: no-repeat;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: #007185;
+    font-weight: 400;
+    align-items: flex-end;
+}
+
+.box-content p:hover {
+    color: #007195;
+}
+
+/** shop section end**/
+
+/**footer section**/
+footer {
+    margin-top: 10px;
+}
+
+.tab {
+    background-color: rgb(102, 70, 70);
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.panel-section {
+    background-color: rgb(60, 42, 42);
+    display: flex;
+    color: white;
+    height: 380px;
+    justify-content: space-evenly;
+}
+
+ul p {
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+.last-panel {
+    background-color: rgb(60, 42, 42);
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-sec {
+    background-image: url("Logo2.jpg");
+    background-size: cover;
+    height: 65px;
+    width: 65px;
+    margin-top: 1.5px;
+}
+
+.last-section {
+    background-color: rgb(43, 38, 38);
+    color: white;
+    text-align: center;
+    font-size: 0.75rem;
+    height: 90px;
+}
+
+.pages {
+    padding-top: 25px;
+}
+
+.copyright {
+    padding-top: 5px;
+}
